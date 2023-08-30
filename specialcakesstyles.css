@@ -1,0 +1,479 @@
+@charset "utf-8";
+ CSS Document 
+body {
+	font-size: 1em;
+	line-height: 1.3em;
+	
+}
+
+.container{
+	margin: 20px auto; /* Centering the container */
+	max-width: 1200px; /* Setting max-width to 1200px */
+	padding: 0 20px; /* Adding padding for content inside container */
+	
+}
+
+classes 
+.burntred {
+	color: #E94D40;
+}
+.navyblue {
+	color: #0C243C;
+}
+.specialcakesfont {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	
+  }
+
+  header {
+	background-color: #ffffff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+  }
+
+  .logo {
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 20px;
+  }
+
+  nav {
+	margin-right: 20px;
+	position:relative;  top:20px;
+  }
+
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+
+  nav ul li {
+	display: inline-block;
+	margin-left: 10px;
+  }
+
+  .banner {
+	width: 1200px;
+	height: 360px;
+	
+  }
+
+  .image-container{
+	position: relative;
+  display: inline-block;
+  }
+
+  .image-container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1200px;
+	height: 360px;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+  }
+
+  .darken-image {
+	filter: brightness(65%);
+	position: relative;
+	z-index: 1;
+  }
+  
+
+  h2 {
+	position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #ffffff;
+  font-size: 25px;
+  }
+
+  h3{
+	padding-top: 50px;
+	color: #0C243C;
+	font-size: 22px;
+  }
+
+  .divider{
+	width: 1100px;
+	height: 7px;
+	background-color:#f0f0f0;
+	border-radius: 10px;
+  }
+
+  .main text{
+	font-size: 17px;
+	color: #0C243C;
+	position: relative; top: 30px;
+  }
+  /*.map-text{
+	font-size: 20px;
+	color: #0C243C;
+	position: relative; top: 40px;
+  } */
+
+
+  footer {
+	background-color: #f9f9f9;
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+  }
+
+  .button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #E94D40;
+	border: none;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+  }
+  
+	.button:hover {
+	background-color: #ffffff;
+	color: #E94D40;
+	outline: 2px solid #E94D40;
+	
+  }
+  
+  .come-visit-us-box{
+	width: 1200px;
+	height: 236px;
+	background-color:#f0f0f08d;
+	margin-top: 130px;
+	border-radius: 10px;
+	overflow: hidden;
+  }
+  
+  .home-page-image-1{
+	border-radius: 10px;
+	position: relative;left: 880px;
+	position: relative;top: -202px;
+	
+  }
+
+  .home-page-image-2{
+	border-radius: 10px;
+	position: relative;left: 880px;
+	position: relative;top: -200px;}
+
+  .image-container-2{
+	display: block;
+	margin-bottom: 20px;
+	
+  }
+  
+  .box-1-text{
+	padding-left: 25px;
+	padding-top: 5px;
+	color: #0C243C;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+
+  }
+  
+  .box-2-text{
+	padding-left: 25px;
+	
+	color: #0C243C;
+	font-family: Arial, sans-serif;
+	font-size: 20px;}
+
+	.box-2-text-2{
+		margin-bottom: 25px;
+		margin-top: 40px;
+	}
+
+
+  .inbetween{
+	width: 1200px;
+	
+	height: 95px;
+  }
+
+  .strawberry{
+	position: relative; top: -130px;
+  }
+
+  .heading-1{
+	font-size: 20px;
+	position: relative;left: 40px;
+	
+  }
+
+  .box-1-text{
+	
+	width: 400px;
+	height: 150px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .product-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 150px;
+	padding-top: 150px;
+  }
+  
+  .product {
+	text-align: center;
+  }
+  
+  .product img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  .product-name {
+	margin-top: 10px;
+	font-size: 17px;
+	color: #0C243C;
+  }
+  
+  .divider-2{
+	width: 1200px;
+	height: 7px;
+	background-color:#f0f0f0;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: -30px;
+  }
+
+
+
+  .custom-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 100px;
+	
+  }
+  
+  .custom-table th,
+  .custom-table td {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #0C243C;
+  }
+  
+  .custom-table th {
+	background-color: #E94D40;
+	font-weight: bold;
+	color: #ffffff;
+  }
+  
+  
+  
+  .custom-table tr:last-child,
+.custom-table tr:nth-last-child(2),
+.custom-table tr:nth-last-child(3) {
+  background-color: #f0f0f08d;
+  color: #0C243C;
+}
+
+.title-prices{
+	position: relative;left: 40px;
+	position: relative;top: 80px;
+	color: #0C243C;
+	font-size: 20px;
+	
+}
+
+
+.how-to-order-box{
+	width: 500px;
+	height: 300px;	
+	margin-top: 130px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	position: relative;left: 20px;
+}
+
+.how-to-order-box-colour{
+	background-color: #f0f0f0;
+	width: 530px;
+	margin-top: -40px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	height: 250px;
+
+}
+
+.how-to-order-box-colour-2{
+	background-color: #f0f0f0;
+	width: 700px;
+	margin-top: -70px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	margin-left: 70px;
+	position: relative;left:20px;
+}
+
+.send-box{
+	margin-left: 10px;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .form-row {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  .form-row label {
+	display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  }
+  
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="tel"],
+.form-row textarea {
+  flex: 1;
+  max-width: 300px; /* Adjust the max-width as needed */
+}
+
+ 
+.main-text-aboutpage {
+
+ font-size: 20px;
+}
+
+
+.custom-image {
+	width: 950px;
+	height: 750px;
+	position: relative;right: -125px;
+	
+	
+
+}
+
+.home-page-image-3 {
+	position: relative;top: 50px;
+	position: relative;left: -200px;
+}
+
+
+
+	  
+.about-image {
+	width: 950px;
+	height: 750px;	
+	position: relative;right: -125px;
+ 
+  
+	
+}
+
+.aboutpage-divider {
+	width: 1100px;
+	height: 7px;
+	background-color:#f0f0f0;
+	border-radius: 10px;
+	margin-bottom: 80px;
+}
+
+.aboutpage-maintext {
+	color: #0C243C;
+	font-size: 18px;
+	
+
+}
+
+.aboutpage-maintext-1 {
+	color: #0C243C;
+	padding-top: 50px;
+	font-size: 18px;
+
+}
+
+.job {
+	font-size: 20px;
+	margin-top: 90px;
+	color: #0C243C;
+}
+
+.job-text {
+	color: #0C243C;
+	margin-bottom: -70px;
+}
+
+.aboutpage-divider-2 {
+	width: 1100px;
+	height: 7px;
+	background-color:#f0f0f0;
+	border-radius: 10px;
+	
+}
+
+.aboutpage-empty{
+	height: 50px;
+}
+
+.email-box-text{
+ font-size: 16px;
+}
+
+
+.cakesforsale-footer{
+	margin-top: 30px;
+}
+
+
+.copyright-banner{
+	color: #d6d6d6;
+	position: relative;right: -875px;
+	font-size: 13px;
+	position: relative;top: -10px;
+
+}
+
+.copyright-home{
+	color: #d6d6d6;
+	position: relative;right: -910px;
+	font-size: 13px;
+	position: relative;top: -20px;
+
+}
+
+.copyright-about{
+	color: #d6d6d6;
+	position: relative;right: -910px;
+	font-size: 13px;
+	position: relative;top: -10px;
+
+}
+
+.allergy-statments{
+	color: #a1a0a0;
+	font-size: 13px;
+	position: relative;top: -10px;
+}
